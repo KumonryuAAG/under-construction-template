@@ -54,11 +54,22 @@
     }
 
     .project-list {
-      max-width: 800px;
-      margin: auto;
       text-align: left;
       line-height: 1.8;
       font-size: 17px;
+    }
+
+    .skills-cert-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .skills-cert-container>div {
+      flex: 1;
+      min-width: 300px;
+      max-width: 500px;
     }
 
     .footer {
@@ -78,28 +89,60 @@
 
   <div class="header">
     <h1>Arnold Gutib</h1>
-    <p>DevOps Engineer • System Administrator </p>
+    <p>DevOps Engineer • IT Specialist • Portfolio Showcase</p>
     <a href="Arnold-Gutib.pdf" class="resume-btn" download>⬇ Download My Resume</a>
   </div>
 
   <div class="section text-center">
-    <h2>🧑‍💻 About Me</h2>
-    <p>
-    I'm a DevOps Engineer and System Administrator with over 5 years of experience designing, automating, and maintaining
-    scalable infrastructure across cloud and on-premise environments. I specialize in cloud services (AWS, Azure,
-    DigitalOcean), CI/CD pipelines (Jenkins, GitLab CI, Bitbucket Pipelines), and infrastructure as code using tools like
-    Terraform, Docker, and Ansible.
-    
-    I’ve worked with data warehousing platforms like Snowflake and relational databases such as MySQL, PostgreSQL, and SQL
-    Server. I’ve led multiple successful migrations, implemented robust monitoring stacks (Prometheus, Grafana), and
-    enforced strong security practices across various systems.
-    
-    Passionate about performance, reliability, and continuous improvement, I thrive in dynamic environments where technology
-    drives innovation and impact.</p>
+    <h2>👨‍💻 About Me</h2>
+    <p>I’m a DevOps and IT professional with over 5 years of experience designing, automating, and maintaining scalable
+      infrastructure across cloud and on-premise environments. I specialize in cloud services (AWS, Azure,
+      DigitalOcean), CI/CD pipelines (Jenkins, GitLab CI, Bitbucket Pipelines), and infrastructure as code using tools
+      like Terraform, Docker, and Ansible.<br><br>
+      I’ve worked with data warehousing platforms like Snowflake and relational databases such as MySQL, PostgreSQL, and
+      SQL Server. I’ve led multiple successful migrations, implemented robust monitoring stacks (Prometheus, Grafana),
+      and enforced strong security practices across various systems.<br><br>
+      Passionate about performance, reliability, and continuous improvement, I thrive in dynamic environments where
+      technology drives innovation and impact.</p>
   </div>
 
   <div class="section text-center">
-    <h2>Projects</h2>
+    <div class="skills-cert-container">
+      <div>
+        <h2>🛠 Skills</h2>
+        <div class="project-list">
+          <ul>
+            <li><strong>Operating Systems:</strong> Linux (Ubuntu, CentOS, Fedora, Arch), Windows, macOS</li>
+            <li><strong>Databases:</strong> MySQL, PostgreSQL, SQL Server, Azure SQL, AWS RDS, Snowflake</li>
+            <li><strong>CI/CD:</strong> Jenkins, GitLab CI, Bitbucket Pipelines, Azure DevOps, AWS CodePipeline</li>
+            <li><strong>Infrastructure as Code:</strong> Terraform, Ansible, Docker, ARM Templates, CloudFormation</li>
+            <li><strong>Orchestration:</strong> Docker Swarm, Kubernetes, LXC/LXD, AWS EKS</li>
+            <li><strong>Languages:</strong> Bash, Python, YAML</li>
+            <li><strong>Cloud Platforms:</strong> AWS, Azure, DigitalOcean, Linode</li>
+            <li><strong>Monitoring & Security:</strong> Prometheus, Grafana, CloudWatch, Security Audits, IAM</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2>📜 Certifications</h2>
+        <div class="project-list">
+          <ul>
+            <li>Microsoft Certified: Azure Fundamentals</li>
+            <li>AWS Cloud Essentials</li>
+            <li>Cisco Junior CyberSecurity Analyst</li>
+            <li>Docker & Kubernetes: The Practical Guide (Udemy)</li>
+            <li>Linux Mastery (Udemy)</li>
+            <li>NDG Linux Essentials</li>
+            <li>Snowflake: Essentials Data Warehouse</li>
+            <li>Introduction to Cybersecurity (Cisco)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section text-center">
+    <h2>📂 Projects</h2>
     <div class="project-list">
       <ul>
         <li><strong>Akeneo PIM Migration:</strong> Full system lift-and-shift to Azure with MySQL & Elasticsearch
@@ -124,23 +167,7 @@
   </div>
 
   <div class="section text-center">
-    <h2>Certifications</h2>
-    <div class="project-list">
-      <ul>
-        <li>Microsoft Certified: Azure Fundamentals</li>
-        <li>AWS Cloud Essentials</li>
-        <li>Cisco Junior CyberSecurity Analyst</li>
-        <li>Docker & Kubernetes: The Practical Guide (Udemy)</li>
-        <li>Linux Mastery (Udemy)</li>
-        <li>NDG Linux Essentials</li>
-        <li>Snowflake: Essentials Data Warehouse</li>
-        <li>Introduction to Cybersecurity (Cisco)</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section text-center">
-    <h2>Contact</h2>
+    <h2>📞 Contact</h2>
     <p>📍 Cagayan de Oro City, Philippines<br>
       📞 +63 928 931 2414<br>
       📧 <a href="mailto:careers@arnoldgutib.com">careers@arnoldgutib.com</a><br>
